@@ -18,20 +18,16 @@ Ce repository contient le script d'entraînement complet du modèle, le code de 
 
 ## 📂 Structure du Projet
 
-London-Fire-Brigade/
-│
-├── data/              # Pour les fichiers de données (.csv)
-├── notebooks/         # Pour vos fichiers .ipynb
-├── app/               # Pour votre application
-│   ├── app.py
-│   └── mon_reseau.html
-├── assets/            # Pour les images et logos
-│   └── logoLFB.jpg
-├── saved_models/      # Pour vos modèles .joblib
-│
-├── .gitignore         # LE FICHIER LE PLUS IMPORTANT
-├── README.md          # Votre page de présentation
-└── requirements.txt   # La liste de vos dépendances
+```
+├── app/              # Code source de l'application Streamlit de démonstration
+├── assets/           # Images et logos pour le README
+├── data/             # Données (les fichiers complets doivent être téléchargés séparément)
+├── notebooks/        # Notebooks Jupyter pour l'analyse exploratoire et la modélisation
+├── saved_models/     # Modèles entraînés (ignorés par Git)
+├── .gitignore        # Fichiers et dossiers à ignorer par Git
+├── README.md         # Ce fichier
+└── requirements.txt  # Dépendances Python du projet
+```
 
 ---
 
@@ -91,10 +87,3 @@ Le projet suit un pipeline de machine learning structuré :
     * Les meilleurs hyperparamètres ont été recherchés à l'aide de `RandomizedSearchCV` sur 50 itérations avec une validation croisée en 5 folds, en optimisant le score R².
 
 5.  **Évaluation :** Le modèle final est évalué sur un jeu de test mis de côté (20% des données) pour mesurer sa performance réelle sur des données inconnues.
-
----
-
-## 💡 Résultats et Conclusions
-
-* L'analyse a révélé que les facteurs les plus importants pour prédire le temps de réponse sont... *(ajoutez ici les features les plus importantes que votre modèle a identifiées)*.
-* Le modèle final est capable de prédire le temps d'intervention avec une erreur moyenne de `[votre RMSE]` secondes, ce qui démontre la faisabilité d'un outil d'aide à la décision.
