@@ -6,17 +6,6 @@ L'objectif est d'identifier les facteurs influençant ce temps de réponse et de
 
 Ce repository contient le script d'entraînement complet du modèle, le code de l'application web de démonstration, ainsi que la documentation du projet.
 
-## 📊 Résultat Clé : Performance du Modèle
-
-Après un processus de nettoyage, d'ingénierie de features et d'optimisation des hyperparamètres, le modèle final atteint les performances suivantes sur le jeu de test :
-
--   **Score R² :** `[Mettez ici votre score R² Test]` (par exemple, **0.78**)
--   **RMSE (Root Mean Squared Error) :** `[Mettez ici votre RMSE]` (par exemple, **85.3 secondes**)
-
-*(**Action :** Remplacez les valeurs entre crochets par les résultats finaux affichés par votre script. C'est un excellent moyen de montrer immédiatement la qualité de votre travail.)*
-
----
-
 ## 🛠️ Stack Technique
 
 -   **Analyse & Modélisation :** Python, Pandas, NumPy, Scikit-learn
