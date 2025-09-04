@@ -1,0 +1,19 @@
+# Fichiers système
+.DS_Store
+
+# Environnements virtuels
+venv/
+lib/
+
+# Fichiers de cache Python
+__pycache__/
+*.pyc
+
+# Fichiers de données volumineux (les liens seront dans le README)
+data/*.csv
+
+# Fichiers de modèles binaires
+saved_models/*.joblib
+
+# Fichiers inutiles
+*.pptx
