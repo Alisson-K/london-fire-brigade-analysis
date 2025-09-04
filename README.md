@@ -61,7 +61,7 @@ London-Fire-Brigade/
 4.  **Entraîner le modèle :**
     Le script fourni (`[analyse_2.ipynb]`) exécute le pipeline complet : chargement, nettoyage, feature engineering, optimisation et sauvegarde des artefacts du modèle.
     ```bash
-    python [analyse_2.ipynb]
+    python analyse_2.ipynb
     ```
 
 5.  **Lancer l'application de démonstration :**
