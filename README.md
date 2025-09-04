@@ -6,6 +6,12 @@ L'objectif est d'identifier les facteurs influençant ce temps de réponse et de
 
 Ce repository contient le script d'entraînement complet du modèle, le code de l'application web de démonstration, ainsi que la documentation du projet.
 
+## 📊 Aperçu de l'Application
+
+Voici un aperçu de l'application de prédiction interactive construite avec Streamlit. L'utilisateur peut renseigner les paramètres d'un incident pour obtenir une estimation en temps réel du temps de première intervention.
+
+![Aperçu de l'application Streamlit de prédiction](assets/app_screenshot.jpg)
+
 ## 🛠️ Stack Technique
 
 -   **Analyse & Modélisation :** Python, Pandas, NumPy, Scikit-learn
