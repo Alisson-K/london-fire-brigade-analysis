@@ -18,14 +18,20 @@ Ce repository contient le script d'entraînement complet du modèle, le code de 
 
 ## 📂 Structure du Projet
 
-├── app/              # Code source de l'application Streamlit de démonstration
-├── assets/           # Images et logos pour le README
-├── data/             # Données (les fichiers complets doivent être téléchargés séparément)
-├── notebooks/        # Notebooks pour l'analyse exploratoire initiale
-├── saved_models/     # Modèles, scalers et encoders entraînés (via joblib)
-├── .gitignore        # Fichiers et dossiers à ignorer par Git
-├── README.md         # Ce fichier
-└── requirements.txt  # Dépendances Python du projet
+London-Fire-Brigade/
+│
+├── data/              # Pour les fichiers de données (.csv)
+├── notebooks/         # Pour vos fichiers .ipynb
+├── app/               # Pour votre application
+│   ├── app.py
+│   └── mon_reseau.html
+├── assets/            # Pour les images et logos
+│   └── logoLFB.jpg
+├── saved_models/      # Pour vos modèles .joblib
+│
+├── .gitignore         # LE FICHIER LE PLUS IMPORTANT
+├── README.md          # Votre page de présentation
+└── requirements.txt   # La liste de vos dépendances
 
 ---
 
