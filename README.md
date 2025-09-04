@@ -59,9 +59,9 @@ London-Fire-Brigade/
     Les données complètes (`LFB Incident data...` et `LFB Mobilisation data...`) ne sont pas incluses dans ce repository. Veuillez les télécharger depuis le **[London Datastore](https://data.london.gov.uk/dataset/london-fire-brigade-incident-records)** et les placer à la racine du projet.
 
 4.  **Entraîner le modèle :**
-    Le script fourni (`[nom_de_votre_script.py]`) exécute le pipeline complet : chargement, nettoyage, feature engineering, optimisation et sauvegarde des artefacts du modèle.
+    Le script fourni (`[analyse_2.ipynb]`) exécute le pipeline complet : chargement, nettoyage, feature engineering, optimisation et sauvegarde des artefacts du modèle.
     ```bash
-    python [nom_de_votre_script.py]
+    python [analyse_2.ipynb]
     ```
 
 5.  **Lancer l'application de démonstration :**
